@@ -1,0 +1,58 @@
+.footer {
+  background-color: #0c0c0c;
+  padding: 120px 6vw 60px;
+  border-top: 1px solid rgba(245, 245, 245, 0.14);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 48px;
+}
+
+.footer h3 {
+  font-size: 1.6rem;
+  letter-spacing: 0.6rem;
+}
+
+.footer h4 {
+  font-size: 0.9rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 12px;
+}
+
+.footer p {
+  color: rgba(245, 245, 245, 0.7);
+  max-width: 420px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.footer li a {
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.1rem;
+  color: rgba(245, 245, 245, 0.85);
+}
+
+.bottomBar {
+  margin-top: 64px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(245, 245, 245, 0.12);
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.08rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: rgba(245, 245, 245, 0.6);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

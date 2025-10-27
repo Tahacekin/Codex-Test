@@ -1,0 +1,26 @@
+.wrapper {
+  background-color: #0c0c0c;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+.header h2 {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+}
+
+.header p {
+  max-width: 480px;
+  color: rgba(245, 245, 245, 0.7);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+}
