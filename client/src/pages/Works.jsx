@@ -14,17 +14,7 @@ function Works() {
       .catch((err) => console.error('Failed to load works', err));
   }, []);
 
-  return (
-    <main>
-      {items.length > 0 && (
-        <Gallery
-          items={items}
-          title="Launch blueprints"
-          description="Explore how AURA translated raw ideas into identity systems, products and automated stores."
-        />
-      )}
-    </main>
-  );
+  return <main>{items.length > 0 && <Gallery items={items} title="Portfolio" description="Select a campaign to view full details." />}</main>;
 }
 
 export default Works;

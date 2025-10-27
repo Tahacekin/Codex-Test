@@ -31,17 +31,9 @@ function Home() {
   return (
     <main>
       <HeroSection {...homeData.hero} />
-      <ValueProps
-        items={homeData.values}
-        title="From spark to storefront"
-        description="AURA orchestrates every layer of brand creation, product design and launch automation."
-      />
+      <ValueProps items={homeData.values} title="Why choose us" description="Precision visuals for brands engineered to stand out." />
       <Gallery items={works} title={homeData.galleryIntro.title} description={homeData.galleryIntro.description} />
-      <Timeline
-        steps={homeData.process}
-        title="How AURA flows"
-        description="Four automated stages carry your idea from prompt to Shopify launch-ready store."
-      />
+      <Timeline steps={homeData.process} title="Process" description="A streamlined arc that keeps your production sharp from discovery to delivery." />
       <FAQ items={homeData.faqs} title="FAQs" />
     </main>
   );

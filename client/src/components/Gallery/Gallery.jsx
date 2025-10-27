@@ -15,7 +15,7 @@ function Gallery({ items, title, description }) {
       )}
       <div className={styles.grid}>
         {items.map((item) => (
-          <WorkCard key={item.id} work={item} onClick={() => navigate(`/works/${item.slug ?? item.id}`)} />
+          <WorkCard key={item.id} work={item} onClick={() => navigate(`/works/${item.id}`)} />
         ))}
       </div>
     </section>

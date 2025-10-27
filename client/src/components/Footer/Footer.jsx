@@ -1,16 +1,16 @@
 import styles from './Footer.module.css';
 
 const socials = [
-  { label: 'Instagram', url: 'https://instagram.com/aura.design' },
-  { label: 'Twitter', url: 'https://twitter.com/aura_design' },
-  { label: 'Facebook', url: 'https://facebook.com/aura.design' },
-  { label: 'TikTok', url: 'https://tiktok.com/@auradesign' }
+  { label: 'Instagram', url: 'https://instagram.com/sharpstudio' },
+  { label: 'Twitter', url: 'https://twitter.com/sharpstudio' },
+  { label: 'Facebook', url: 'https://facebook.com/sharpstudio' },
+  { label: 'TikTok', url: 'https://tiktok.com/@sharpstudio' }
 ];
 
 const pages = [
   { label: 'Home', url: '/' },
-  { label: 'Studio', url: '/about' },
-  { label: 'Launches', url: '/works' },
+  { label: 'About', url: '/about' },
+  { label: 'Works', url: '/works' },
   { label: 'Contact', url: '/contact' }
 ];
 
@@ -19,9 +19,9 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.grid}>
         <div>
-          <h3>AURA</h3>
+          <h3>SHARP</h3>
           <p>
-            AI-powered design studio taking creative sparks from idea to fully merchandised, Shopify-ready brands.
+            Fashion storytellers creating high-impact imagery for brands with daring vision.
           </p>
         </div>
         <div>
@@ -48,7 +48,7 @@ function Footer() {
         </div>
       </div>
       <div className={styles.bottomBar}>
-        <span>© {new Date().getFullYear()} Aura Studio. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Sharp Collective. All rights reserved.</span>
       </div>
     </footer>
   );

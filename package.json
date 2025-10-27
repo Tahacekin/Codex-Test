@@ -1,8 +1,8 @@
 {
-  "name": "aura-launch-studio",
+  "name": "sharp-portfolio",
   "private": true,
   "version": "1.0.0",
-  "description": "AURA AI launch studio experience",
+  "description": "SHARP fashion photography portfolio web application",
   "scripts": {
     "dev": "concurrently \"npm run dev --workspace server\" \"npm run dev --workspace client\"",
     "build": "npm run build --workspace client && npm run build --workspace server",

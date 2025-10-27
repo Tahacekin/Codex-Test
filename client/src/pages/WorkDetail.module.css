@@ -5,12 +5,6 @@
   gap: 80px;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
 .header h1 {
   font-size: clamp(2.2rem, 6vw, 4rem);
   margin-bottom: 16px;
@@ -21,28 +15,12 @@
   color: rgba(245, 245, 245, 0.75);
 }
 
-.badge {
-  align-self: flex-start;
-  border: 1px solid rgba(245, 245, 245, 0.3);
-  padding: 6px 16px;
-  letter-spacing: 0.2rem;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-}
-
 .meta {
+  margin-top: 24px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px 32px;
+  gap: 24px;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-}
-
-.meta span {
-  font-family: 'IBM Plex Mono', monospace;
-  letter-spacing: 0.08rem;
-  font-size: 0.75rem;
-  color: rgba(245, 245, 245, 0.7);
 }
 
 .gallery {
@@ -56,59 +34,30 @@
   object-fit: cover;
 }
 
-.idea {
-  border: 1px solid rgba(245, 245, 245, 0.18);
-  padding: 48px;
-  display: flex;
-  flex-direction: column;
+.credits h2 {
+  margin-bottom: 24px;
+}
+
+.credits ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
   gap: 16px;
 }
 
-.idea h2 {
-  margin: 0;
-}
-
-.idea p {
-  font-family: 'IBM Plex Mono', monospace;
-  color: rgba(245, 245, 245, 0.75);
-  letter-spacing: 0.08rem;
-}
-
-.section {
+.credits li {
   display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.section h2 {
-  margin: 0;
-}
-
-.cardGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 24px;
-}
-
-.cardGrid article {
-  border: 1px solid rgba(245, 245, 245, 0.18);
-  padding: 32px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.cardGrid h3 {
-  margin: 0;
-  letter-spacing: 0.2rem;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.18);
+  padding-bottom: 12px;
+  letter-spacing: 0.15rem;
   text-transform: uppercase;
 }
 
-.cardGrid p {
-  margin: 0;
+.credits span:last-child {
   font-family: 'IBM Plex Mono', monospace;
-  color: rgba(245, 245, 245, 0.75);
-  letter-spacing: 0.08rem;
+  color: rgba(245, 245, 245, 0.7);
 }
 
 .backLink {
@@ -128,9 +77,5 @@
   .meta {
     flex-direction: column;
     gap: 12px;
-  }
-
-  .idea {
-    padding: 32px;
   }
 }

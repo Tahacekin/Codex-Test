@@ -8,7 +8,7 @@ import { aboutContent } from './data/about.js';
 import { homeContent } from './data/home.js';
 
 const app = express();
-const DEFAULT_PORT = Number(process.env.PORT) || 5000;
+const PORT = process.env.PORT || 5000;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -60,30 +60,6 @@ if (fs.existsSync(clientBuildPath)) {
   });
 }
 
-const startServer = (port, attempt = 0) => {
-  const server = app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-  });
-
-  server.on('error', (error) => {
-    if (error.code === 'EADDRINUSE') {
-      console.error(`Port ${port} is already in use.`);
-
-      if (!process.env.PORT && attempt < 5) {
-        const nextPort = port + 1;
-        console.log(`Attempting to use port ${nextPort} instead.`);
-        server.close(() => startServer(nextPort, attempt + 1));
-      } else {
-        console.error(
-          'Please free the port or set the PORT environment variable to a different value.'
-        );
-        process.exit(1);
-      }
-    } else {
-      console.error('Unexpected server error:', error);
-      process.exit(1);
-    }
-  });
-};
-
-startServer(DEFAULT_PORT);
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});

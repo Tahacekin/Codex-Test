@@ -1,5 +1,5 @@
 {
-  "name": "aura-server",
+  "name": "sharp-server",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",

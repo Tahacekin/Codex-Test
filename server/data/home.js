@@ -1,78 +1,77 @@
 export const homeContent = {
   hero: {
-    backgroundImage: "/images/hero/aura-main.jpg",
-    headline: "AURA / IDEA → STORE",
-    subheading:
-      "An AI-powered design studio that takes a passing thought and launches a fully merchandised Shopify brand in hours.",
-    ctaLabel: "Enter the flow",
+    backgroundImage: "/images/hero/main-hero.jpg",
+    headline: "FASHION AS EDGE",
+    subheading: "Sharp is a Berlin-based fashion photography studio crafting high-impact visuals for visionary brands.",
+    ctaLabel: "Scroll",
     ctaTarget: "#value-props"
   },
   values: [
     {
-      title: "SPARK TO STORY",
-      description: "Drop a single sentence and AURA generates names, a mission and a vivid brand narrative."
+      title: "CONCEPT FIRST",
+      description: "We translate your brand DNA into bold visual narratives that connect."
     },
     {
-      title: "CUSTOMER INTEL",
-      description: "Persona modeling defines the ideal buyer, their rituals and the voice that resonates."
+      title: "GLOBAL NETWORK",
+      description: "From Berlin to Tokyo, our collective of stylists, set designers and retouchers is battle-tested."
     },
     {
-      title: "PRODUCT LAB",
-      description: "Photorealistic mockups, descriptions and capsule ideas arrive ready for production teams."
+      title: "LIGHT AS SCULPTURE",
+      description: "We mould light, texture and motion to spotlight your collection's finest details."
     },
     {
-      title: "LAUNCH AUTOPILOT",
-      description: "Campaign calendars, ad copy and Shopify publishing all ship from the same prompt."
+      title: "DELIVERY AT SPEED",
+      description: "Efficient workflows and clear communication keep your campaign on schedule."
     }
   ],
   galleryIntro: {
-    title: "BRANDS BORN IN AURA",
-    description: "Preview concepts that moved from idea to commerce-ready drops in a single session."
+    title: "LATEST CUTS",
+    description: "A curated glimpse into recent collaborations."
   },
   process: [
     {
       step: "01",
-      title: "INPUT THE SPARK",
-      description: "Describe the world you want to build. AURA interprets tone, culture and ambition instantly."
+      title: "DISCOVERY",
+      description: "We immerse in your mood boards, goals and constraints to align the shoot."
     },
     {
       step: "02",
-      title: "FORM THE IDENTITY",
-      description: "AI strategists craft the brand name, manifesto and customer profile to anchor every decision."
+      title: "DESIGN",
+      description: "Sharp crafts a visual concept, crew roster and production blueprint."
     },
     {
       step: "03",
-      title: "DESIGN THE CAPSULE",
-      description: "Generate hero products, photoreal mockups and a capsule roadmap aligned with your vision."
+      title: "CAPTURE",
+      description: "On-set direction and precise lighting deliver the signature Sharp look."
     },
     {
       step: "04",
-      title: "DEPLOY THE STORE",
-      description: "Sync to Shopify, publish listings, schedule launch stories and monitor readiness in one click."
+      title: "DELIVER",
+      description: "Retouched assets, motion clips and social edits land right when you need them."
     }
   ],
   faqs: [
     {
-      question: "What do I need to get started?",
-      answer: "Bring a sentence about your idea and optional mood references. AURA expands that into a complete launch blueprint."
+      question: "What industries do you work with?",
+      answer: "We partner with fashion houses, independent designers, lifestyle brands and editorial teams seeking a refined aesthetic."
     },
     {
-      question: "Can I edit what AURA creates?",
-      answer: "Every deliverable stays editable. Lock in the pieces you love, regenerate details that need another angle."
+      question: "Can you manage full-scale production?",
+      answer: "Yes. Our network covers casting, styling, set design, post-production and location management."
     },
     {
-      question: "Does AURA support physical production?",
-      answer: "We hand off tech packs, supplier-ready specs and mockups your production partners can adopt immediately."
+      question: "Do you travel for shoots?",
+      answer: "Absolutely. The Sharp collective works on location globally and maintains teams in Berlin, New York and Tokyo."
     },
     {
-      question: "How does the Shopify launch work?",
-      answer: "Connect your store once. AURA builds collections, uploads assets and drafts pages ready for your approval."
+      question: "How soon can we start?",
+      answer: "We book a limited number of productions each quarter. Reach out via the contact form and we will share availability within 24 hours."
     }
   ],
   socials: {
-    instagram: "https://instagram.com/aura.design",
-    twitter: "https://twitter.com/aura_design",
-    facebook: "https://facebook.com/aura.design",
-    tiktok: "https://tiktok.com/@auradesign"
+    instagram: "https://instagram.com/sharpstudio",
+    twitter: "https://twitter.com/sharpstudio",
+    facebook: "https://facebook.com/sharpstudio",
+    tiktok: "https://tiktok.com/@sharpstudio"
   }
 };

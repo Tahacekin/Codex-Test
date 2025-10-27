@@ -29,10 +29,10 @@ function WorkDetail() {
 
   if (error) {
     return (
-        <main className={styles.main}>
-          <p>{error}</p>
-          <Link to="/works">Back to launches</Link>
-        </main>
+      <main className={styles.main}>
+        <p>{error}</p>
+        <Link to="/works">Back to works</Link>
+      </main>
     );
   }
 
@@ -43,79 +43,41 @@ function WorkDetail() {
   return (
     <main className={styles.main}>
       <section className={`${styles.header} fade-in`}>
-        <span className={styles.badge}>Launch blueprint</span>
         <h1>{work.title}</h1>
         <p>{work.description}</p>
         <div className={styles.meta}>
+          {work.location && <span>{work.location}</span>}
           {work.year && <span>{work.year}</span>}
-          {work.tagline && <span>{work.tagline}</span>}
         </div>
       </section>
-      {work.ideaPrompt && (
-        <section className={`${styles.idea} fade-in`}>
-          <h2>Original prompt</h2>
-          <p>{work.ideaPrompt}</p>
-        </section>
-      )}
       <section className={`${styles.gallery} fade-in`}>
         {work.gallery?.map((src) => (
           <img key={src} src={src} alt={`${work.title} still`} />
         ))}
       </section>
-      {work.brandIdentity && (
-        <section className={`${styles.section} fade-in`}>
-          <h2>Brand identity</h2>
-          <div className={styles.cardGrid}>
-            {work.brandIdentity.map((item) => (
-              <article key={item.title}>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-      )}
-      {work.capsule && (
-        <section className={`${styles.section} fade-in`}>
-          <h2>Capsule concepts</h2>
-          <div className={styles.cardGrid}>
-            {work.capsule.map((item) => (
-              <article key={item.title}>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-      )}
-      {work.goToMarket && (
-        <section className={`${styles.section} fade-in`}>
-          <h2>Go-to-market</h2>
-          <div className={styles.cardGrid}>
-            {work.goToMarket.map((item) => (
-              <article key={item.title}>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-      )}
-      {work.automation && (
-        <section className={`${styles.section} fade-in`}>
-          <h2>Automation</h2>
-          <div className={styles.cardGrid}>
-            {work.automation.map((item) => (
-              <article key={item.title}>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </article>
-            ))}
-          </div>
+      {work.credits && (
+        <section className={`${styles.credits} fade-in`}>
+          <h2>Credits</h2>
+          <ul>
+            <li>
+              <span>Photographer</span>
+              <span>{work.credits.photographer}</span>
+            </li>
+            <li>
+              <span>Stylist</span>
+              <span>{work.credits.stylist}</span>
+            </li>
+            {work.credits.models && (
+              <li>
+                <span>Models</span>
+                <span>{work.credits.models.join(', ')}</span>
+              </li>
+            )}
+          </ul>
         </section>
       )}
       <Link to="/works" className={styles.backLink}>
-        ← Back to launches
+        ← Back to works
       </Link>
     </main>
   );

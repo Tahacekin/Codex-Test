@@ -1,6 +1,6 @@
-# AURA – AI Launch Studio
+# SHARP – Fashion Photography Portfolio
 
-This project is a full-stack web experience for the fictional AI-powered design studio **AURA**. It is composed of an Express REST API and a React front-end built with Vite, organised under a monorepo using npm workspaces.
+This project is a full-stack web experience for the fictional fashion photography collective **SHARP**. It is composed of an Express REST API and a React front-end built with Vite, organised under a monorepo using npm workspaces.
 
 ## Project structure
 
@@ -44,7 +44,7 @@ This project is a full-stack web experience for the fictional AI-powered design 
 
 ## Front-end features
 
-- Responsive layout inspired by the AURA brand aesthetic with bold typography, heavy borders and muted palette.
+- Responsive layout inspired by the SHARP brand aesthetic with bold typography, heavy borders and muted palette.
 - Reusable UI components (`HeroSection`, `ValueProps`, `Gallery`, `Timeline`, `FAQ`, `Slider`, `ContactInfo`, `WorkCard`, `Navbar`, `Footer`).
 - Smooth-scroll hero call-to-action and IntersectionObserver powered fade-in animations.
 - React Router v6 pages for Home, About, Works, Work Detail, Contact and a custom 404 view.

@@ -3,9 +3,9 @@ import styles from './ContactInfo.module.css';
 function ContactInfo({ email, socials }) {
   return (
     <section className={`${styles.wrapper} fade-in`}>
-      <h2>Launch with us</h2>
+      <h2>Get in touch</h2>
       <p>
-        Share the spark you want to bring to market. AURA will return with brand foundations, product mockups and a store ready to ship.
+        Let's start your fashion journey. Share your concept and let's craft something unforgettable together.
       </p>
       <a className={styles.email} href={`mailto:${email}`}>
         {email}

@@ -8,7 +8,7 @@ function WorkCard({ work, onClick }) {
       </div>
       <div className={styles.meta}>
         <h3>{work.title}</h3>
-        {work.tagline && <p>{work.tagline}</p>}
+        {work.location && <span>{work.location}</span>}
       </div>
     </article>
   );

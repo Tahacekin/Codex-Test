@@ -1,71 +1,71 @@
 export const aboutContent = {
   intro: {
-    title: "WHO POWERS AURA",
+    title: "THE COLLECTIVE",
     paragraphs: [
-      "AURA blends creative directors, machine learning researchers and commerce operators into one launch studio.",
-      "We build systems that translate an artist's spark into strategy, assets and automated storefronts without losing the soul of the idea."
+      "Sharp is a collective of photographers, directors and producers building fashion imagery with precision.",
+      "We operate as an embedded partner for brands who demand conceptual clarity and immaculate execution."
     ]
   },
   team: [
     {
-      name: "Mira Solis",
-      role: "Creative Intelligence Lead",
-      bio: "Mira trains the language models that turn raw concepts into brand stories calibrated for culture and emotion."
+      name: "Lena Hart",
+      role: "Founder / Photographer",
+      bio: "Obsessed with light, Lena frames garments like architecture and storyboards motion as choreography."
     },
     {
-      name: "Arman Yildiz",
-      role: "Commerce Engineer",
-      bio: "Arman connects AURA's engine to Shopify, ensuring every generated product publishes with accurate inventory logic."
+      name: "Imani Khalid",
+      role: "Producer",
+      bio: "Imani brings calm to complex shoots, orchestrating crews, budgets and timelines across continents."
     },
     {
-      name: "Noa Velasquez",
-      role: "Launch Strategist",
-      bio: "Noa converts insights into go-to-market playbooks and social rhythms that artists can actually maintain."
+      name: "Rei Nakamoto",
+      role: "Art Director",
+      bio: "Rei designs sets that balance minimalism with radical form, translating brand strategy into physical space."
     }
   ],
   process: [
     {
       step: "01",
-      title: "MODEL THE BRAND",
-      description: "Prompt engineering sessions map tone, archetypes and audience psychology around your idea."
+      title: "STRATEGISE",
+      description: "Workshops uncover your campaign objectives, references and target audience insights."
     },
     {
       step: "02",
-      title: "TRAIN THE COLLECTION",
-      description: "Generative pipelines craft mockups, tech packs and variant paths for apparel, print and merch."
+      title: "CRAFT",
+      description: "We storyboard, scout, cast and prototype looks before stepping onto set."
     },
     {
       step: "03",
-      title: "SCRIPT THE LAUNCH",
-      description: "Content strategists and AI copywriters co-create announcements, sequences and ad experiments."
+      title: "SHOOT",
+      description: "Our modular crew runs lean yet precise, capturing both hero images and social-first variations."
     },
     {
       step: "04",
-      title: "SHIP THE STORE",
-      description: "Automations sync everything to Shopify, analytics dashboards and fulfillment partners."
+      title: "POLISH",
+      description: "In-house retouching and color grading maintains the Sharp signature across every deliverable."
     }
   ],
   sliderImages: [
     {
-      src: "/images/about/aura-lab-1.jpg",
-      alt: "AURA team reviewing generative brand boards"
+      src: "/images/about/studio-1.jpg",
+      alt: "Behind the scenes at Sharp studio"
     },
     {
-      src: "/images/about/aura-lab-2.jpg",
-      alt: "Closeup of product mockups rendered by AURA"
+      src: "/images/about/studio-2.jpg",
+      alt: "Styling rack with chrome garments"
     },
     {
-      src: "/images/about/aura-lab-3.jpg",
-      alt: "Launch strategist mapping an automation workflow"
+      src: "/images/about/studio-3.jpg",
+      alt: "Photographer capturing motion blur"
     }
   ],
   contact: {
-    email: "hello@aura.studio",
+    email: "hello@looma.com",
     socials: {
-      instagram: "https://instagram.com/aura.design",
-      twitter: "https://twitter.com/aura_design",
-      facebook: "https://facebook.com/aura.design",
-      tiktok: "https://tiktok.com/@auradesign"
+      instagram: "https://instagram.com/sharpstudio",
+      twitter: "https://twitter.com/sharpstudio",
+      facebook: "https://facebook.com/sharpstudio",
+      tiktok: "https://tiktok.com/@sharpstudio"
     }
   }
 };

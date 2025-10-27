@@ -4,8 +4,8 @@ import styles from './Navbar.module.css';
 
 const links = [
   { to: '/', label: 'Home' },
-  { to: '/about', label: 'Studio' },
-  { to: '/works', label: 'Launches' },
+  { to: '/about', label: 'About' },
+  { to: '/works', label: 'Works' },
   { to: '/contact', label: 'Contact' }
 ];
 
@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <header className={styles.wrapper}>
       <Link to="/" className={styles.brand}>
-        AURA
+        SHARP
       </Link>
       <button className={styles.menuTrigger} onClick={toggleMenu} aria-expanded={open}>
         [ MENU ]

@@ -4,10 +4,10 @@ import useReveal from '../hooks/useReveal.js';
 import styles from './Contact.module.css';
 
 const socials = {
-  instagram: 'https://instagram.com/aura.design',
-  twitter: 'https://twitter.com/aura_design',
-  facebook: 'https://facebook.com/aura.design',
-  tiktok: 'https://tiktok.com/@auradesign'
+  instagram: 'https://instagram.com/sharpstudio',
+  twitter: 'https://twitter.com/sharpstudio',
+  facebook: 'https://facebook.com/sharpstudio',
+  tiktok: 'https://tiktok.com/@sharpstudio'
 };
 
 function Contact() {
@@ -48,9 +48,9 @@ function Contact() {
 
   return (
     <main className={styles.main}>
-      <ContactInfo email="hello@aura.studio" socials={socials} />
+      <ContactInfo email="hello@looma.com" socials={socials} />
       <section className={`${styles.formSection} fade-in`}>
-        <h2>Drop us a spark</h2>
+        <h2>Drop us a line</h2>
         <form className={styles.form} onSubmit={handleSubmit}>
           <label>
             Name
