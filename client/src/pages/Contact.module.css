@@ -1,0 +1,78 @@
+.main {
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.formSection {
+  background-color: #0c0c0c;
+  padding: 120px 6vw;
+}
+
+.formSection h2 {
+  margin-bottom: 32px;
+}
+
+.form {
+  display: grid;
+  gap: 24px;
+  max-width: 640px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.form input,
+.form textarea {
+  padding: 16px;
+  border: 1px solid rgba(245, 245, 245, 0.3);
+  background-color: transparent;
+  color: inherit;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.form button {
+  width: fit-content;
+  border: 2px solid rgba(245, 245, 245, 0.6);
+  background: none;
+  color: inherit;
+  padding: 14px 28px;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.form button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.status {
+  margin-top: 24px;
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.08rem;
+}
+
+.success {
+  color: #a6ff96;
+}
+
+.error {
+  color: #ff7b7b;
+}
+
+@media (max-width: 768px) {
+  .formSection {
+    padding: 100px 5vw;
+  }
+}
